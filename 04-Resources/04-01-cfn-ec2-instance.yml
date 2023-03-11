@@ -5,7 +5,7 @@ Resources:
   DevEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0d8b059d6ab7d091b
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: nov-22
       SecurityGroups:
